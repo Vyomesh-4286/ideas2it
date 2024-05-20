@@ -1,0 +1,38 @@
+.warehouse_form_step .step_1 .wizard_1 {
+    @apply flex flex-col items-center justify-center;
+}
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .form-label {
+    @apply text-sm font-[500] text-[#474747] text-left pb-[10px] mt-[30px];
+}
+
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .radio-bx {
+    @apply relative;
+}
+
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .radio-bx input {
+    @apply h-1 w-1 absolute opacity-0 z-[-1];
+}
+
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .radio-bx label {
+    @apply bg-[#5C409C] bg-opacity-5 text-[#5C409C] text-base py-[5px] px-[10px] font-[500] transition-all duration-500 ease-in-out rounded-[4px];
+}
+
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .radio-bx input[type=radio]:checked+label {
+    @apply bg-opacity-100 text-[#FAFAFA] transition-all duration-500 ease-in-out;
+}
+
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .wizard_grid_boxs .wizard_grid_box_counter {
+    @apply w-[120px] border border-solid border-[#979797] border-opacity-50 rounded-[4px] px-[12px] py-1 flex gap-[12px]
+}
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .wizard_grid_boxs .wizard_grid_box_counter .count_num {
+    @apply w-full
+}
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .wizard_grid_boxs .wizard_grid_box_counter input.count_num {
+    @apply focus:outline-none focus-visible:outline-none;
+}
+.wizard_grid_box_counter label {
+    @apply text-base text-right text-[#5C409C]
+}
+.warehouse_form_step .step_1 .wizard_1 .wizard_grid .select-btn select {
+    @apply bg-[#5C409C0D] text-[#5C409C] text-base w-full rounded-[4px] px-[12px] py-1;
+}

@@ -1,0 +1,165 @@
+[
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "US East (Northern Virginia)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "US East (Ohio)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "US West (Oregon)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Canada (Center)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "EU (London)",
+      "On_demand": 42,
+      "Pre_purchase": 24
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "EU (Ireland)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "EU (Frankfurt)",
+      "On_demand": 45,
+      "Pre_purchase": 24.5
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Europe (Stockholm)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Asia Pacific (Sydney)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Asia Pacific (Singapore)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Asia Pacific (Tokyo)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Asia Pacific (Seoul)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "AWS",
+      "GeoLocation": "Asia Pacific (Mumbai)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "East US 2 (Virginia)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "West US 2 (Washington)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Central US (Iowa)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Canada Central (Toronto)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "West Europe (Netherlands)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "North Europe (Ireland)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Australia East (Sydney)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Southeast Asia (Singapore)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Switzerland North (Zurich)",
+      "On_demand": 50.5,
+      "Pre_purchase": 28.8
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "Japan East (Tokyo)",
+      "On_demand": 46,
+      "Pre_purchase": 25
+    },
+    {
+      "Cloud Provider": "Microsoft Azure",
+      "GeoLocation": "UAE North (Dubai)",
+      "On_demand": 44.5,
+      "Pre_purchase": 25.4
+    },
+    {
+      "Cloud Provider": "Google Cloud Platform",
+      "GeoLocation": "us-central1 (Iowa)",
+      "On_demand": 35,
+      "Pre_purchase": 20
+    },
+    {
+      "Cloud Provider": "Google Cloud Platform",
+      "GeoLocation": "europe-west2 (London)",
+      "On_demand": 40,
+      "Pre_purchase": 23
+    },
+    {
+      "Cloud Provider": "Google Cloud Platform",
+      "GeoLocation": "europe-west4 (Netherlands)",
+      "On_demand": 35,
+      "Pre_purchase": 20
+    }
+  ]
+  

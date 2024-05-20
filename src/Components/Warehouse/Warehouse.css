@@ -1,0 +1,75 @@
+.banner::before {
+    @apply content-[''] absolute top-1/2 -translate-y-1/2 left-0 w-full h-[1325px] bg-rainbow-image bg-cover bg-top;
+}
+
+.banner::after {
+    @apply content-[''] absolute top-0 right-0 w-[410px] h-[442px] bg-flower-image bg-cover;
+}
+
+.banner_content h2 {
+    @apply text-[60px] leading-[74px] text-left mb-[24px];
+}
+
+.banner_content h4 {
+    @apply text-base text-left mb-[16px];
+}
+
+.banner_content .dist p {
+    @apply text-xs mt-[30px] text-left pb-[40px];
+}
+
+.warehouse_form_step .step_1 h3,
+.warehouse_form_step .step_2 h3 {
+    @apply text-2xl mb-[20px] text-left;
+}
+
+.warehouse_form_step .step_1 h4,
+.warehouse_form_step .step_2 h4 {
+    @apply text-xl mb-[20px] text-left;
+}
+
+.warehouse_form_step .step_2 h3 {
+    @apply text-center;
+}
+
+.warehouse_form_step .step_2 h4 {
+    @apply text-center;
+}
+
+.banner_content .cost-grid .estiCost h3,
+.banner_content .cost-grid .totalCrediCost h3 {
+    @apply text-2xl;
+}
+
+.banner_content .cost-grid .estiCost h1,
+.banner_content .cost-grid .totalCrediCost h1 {
+    @apply text-[80px];
+}
+
+.banner_content .cost-grid .estiCost h1 span,
+.banner_content .cost-grid .totalCrediCost h1 span {
+    @apply text-[40px] pr-[10px];
+}
+
+.banner_content .cost-grid .estiCost .dist,
+.banner_content .cost-grid .totalCrediCost .dist {
+    @apply flex justify-center;
+}
+
+.banner_content .cost-grid .estiCost .dist p,
+.banner_content .cost-grid .totalCrediCost .dist p {
+    @apply text-xl font-[400] pb-0 mt-[5px];
+}
+
+.warehouse_form_step .step_2 .form-control {
+    @apply flex flex-col-reverse items-start gap-[10px] mb-[20px];
+}
+.warehouse_form_step .step_2 .form-control label {
+    @apply text-sm text-[#474747] flex justify-center;
+}
+.warehouse_form_step .step_2 .form-control input {
+    @apply text-base text-[#5C409C] px-[12px] py-[6px] border bottom-1 border-solid border-[#97979780] border-opacity-50 rounded w-full;
+}
+.warehouse_data h4 {
+    @apply text-xl text-black;
+}

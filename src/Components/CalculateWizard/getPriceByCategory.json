@@ -1,0 +1,191 @@
+[
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "US East (Northern Virginia)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "US East (Ohio)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "US West (Oregon)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Canada (Central)",
+    "Standard": 2.25,
+    "Enterprise": 3.5,
+    "Business Critical": 4.5
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "EU (London)",
+    "Standard": 2.7,
+    "Enterprise": 4,
+    "Business Critical": 5.4
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "EU (Ireland)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "EU (Frankfurt)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Europe (Stockholm)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Asia Pacific (Sydney)",
+    "Standard": 2.75,
+    "Enterprise": 4.05,
+    "Business Critical": 5.5
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Asia Pacific (Singapore)",
+    "Standard": 2.5,
+    "Enterprise": 3.7,
+    "Business Critical": 5
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Asia Pacific (Tokyo)",
+    "Standard": 2.85,
+    "Enterprise": 4.3,
+    "Business Critical": 5.7
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Asia Pacific (Seoul)",
+    "Standard": 2.75,
+    "Enterprise": 4.05,
+    "Business Critical": 5.5
+  },
+  {
+    "Cloud Provider": "AWS",
+    "GeoLocation": "Asia Pacific (Mumbai)",
+    "Standard": 2.2,
+    "Enterprise": 3.3,
+    "Business Critical": 4.4
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "East US 2 (Virginia)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "West US 2 (Washington)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Central US (Iowa)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Canada Central (Toronto)",
+    "Standard": 2.25,
+    "Enterprise": 3.5,
+    "Business Critical": 4.5
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "West Europe (Netherlands)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "North Europe (Ireland)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Australia East (Sydney)",
+    "Standard": 2.75,
+    "Enterprise": 4.05,
+    "Business Critical": 5.5
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Southeast Asia (Singapore)",
+    "Standard": 2.5,
+    "Enterprise": 3.7,
+    "Business Critical": 5
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Switzerland North (Zurich)",
+    "Standard": 3.1,
+    "Enterprise": 4.65,
+    "Business Critical": 6.2
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "Japan East (Tokyo)",
+    "Standard": 2.85,
+    "Enterprise": 4.3,
+    "Business Critical": 5.7
+  },
+  {
+    "Cloud Provider": "Microsoft Azure",
+    "GeoLocation": "UAE North (Dubai)",
+    "Standard": 2.7,
+    "Enterprise": 4.4,
+    "Business Critical": 5.4
+  },
+  {
+    "Cloud Provider": "Google Cloud",
+    "GeoLocation": "us-central1 (Iowa)",
+    "Standard": 2,
+    "Enterprise": 3,
+    "Business Critical": 4
+  },
+  {
+    "Cloud Provider": "Google Cloud",
+    "GeoLocation": "europe-west2 (London)",
+    "Standard": 2.7,
+    "Enterprise": 4,
+    "Business Critical": 5.4
+  },
+  {
+    "Cloud Provider": "Google Cloud",
+    "GeoLocation": "europe-west4 (Netherlands)",
+    "Standard": 2.6,
+    "Enterprise": 3.9,
+    "Business Critical": 5.2
+  }
+]

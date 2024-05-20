@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    @apply font-Montserrat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-[600];
+}
+
+label,
+input,
+textarea,
+select {
+    @apply font-[500];
+}
+
+.error,
+.error-summary {
+    @apply text-red-600 text-base font-[500];
+}
+
+.btn-white {
+    @apply px-5 py-[10px] rounded-[4px] text-[#07299E] border bottom-1 border-solid hover:text-white text-base relative transition-all duration-500 ease-in-out font-[500];
+}
+
+.btn-white::before {
+    @apply content-[''] absolute left-0 top-0 bg-white w-full h-full transition-all duration-500 ease-in-out z-[-1];
+}
+
+.btn-white:hover::before {
+    @apply w-0 transition-all duration-500 ease-in-out;
+}
+
+.btn-blue {
+    @apply mt-[45px] flex items-center gap-[10px] px-5 py-[10px] rounded-[4px] text-[#5C409C] stroke-[#5C409C] border-[#5C409C] border bottom-1 border-solid hover:text-white hover:stroke-white text-base relative transition-all duration-500 ease-in-out font-[500];
+}
+
+.btn-blue::before {
+    @apply content-[''] absolute left-0 top-0 bg-[#5C409C] w-0 h-full transition-all duration-500 ease-in-out z-[-1];
+}
+
+.btn-blue:hover::before {
+    @apply w-full transition-all duration-500 ease-in-out;
 }

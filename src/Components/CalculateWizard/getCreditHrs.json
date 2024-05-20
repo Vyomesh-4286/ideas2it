@@ -1,0 +1,35 @@
+[
+    {
+      "Size": "XS",
+      "Credits": 1
+    },
+    {
+      "Size": "Small",
+      "Credits": 2
+    },
+    {
+      "Size": "Medium",
+      "Credits": 4
+    },
+    {
+      "Size": "Large",
+      "Credits": 8
+    },
+    {
+      "Size": "XL",
+      "Credits": 16
+    },
+    {
+      "Size": "2XL",
+      "Credits": 32
+    },
+    {
+      "Size": "3XL",
+      "Credits": 64
+    },
+    {
+      "Size": "4XL",
+      "Credits": 128
+    }
+  ]
+  
