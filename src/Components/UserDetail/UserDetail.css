@@ -1,0 +1,24 @@
+.btn-checkbox input {
+    @apply h-1 w-1 absolute opacity-0 z-[-1];
+}
+
+.btn-checkbox label {
+    @apply pl-[30px] relative text-left font-[500];
+}
+
+.btn-checkbox label::before {
+    @apply content-[''] absolute top-[2px] left-0 w-[16px] h-[16px] border bottom-2 border-solid border-[#97979780] rounded transition-all duration-500 ease-in-out;
+}
+
+.btn-checkbox label::after {
+    @apply content-[''] absolute top-[9px] left-[2px] w-[2px] h-[2px] rotate-45 opacity-0 transition-all duration-500 ease-in-out;
+    box-shadow: 2px 0 0 #ffffff,4px 0 0 #ffffff,4px -2px 0 #ffffff,4px -4px 0 #ffffff,4px -6px 0 #ffffff,4px -8px 0 #ffffff;
+}
+
+.btn-checkbox input[type=checkbox]:checked+label::before {
+    @apply bg-[#5C409C] border-[#5C409C] transition-all duration-500 ease-in-out;
+}
+
+.btn-checkbox input[type=checkbox]:checked+label::after {
+    @apply opacity-100 transition-all duration-500 ease-in-out;
+}

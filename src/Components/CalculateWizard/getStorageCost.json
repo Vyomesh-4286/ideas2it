@@ -144,19 +144,19 @@
       "Pre_purchase": 25.4
     },
     {
-      "Cloud Provider": "Google Cloud Platform",
+      "Cloud Provider": "Google Cloud",
       "GeoLocation": "us-central1 (Iowa)",
       "On_demand": 35,
       "Pre_purchase": 20
     },
     {
-      "Cloud Provider": "Google Cloud Platform",
+      "Cloud Provider": "Google Cloud",
       "GeoLocation": "europe-west2 (London)",
       "On_demand": 40,
       "Pre_purchase": 23
     },
     {
-      "Cloud Provider": "Google Cloud Platform",
+      "Cloud Provider": "Google Cloud",
       "GeoLocation": "europe-west4 (Netherlands)",
       "On_demand": 35,
       "Pre_purchase": 20

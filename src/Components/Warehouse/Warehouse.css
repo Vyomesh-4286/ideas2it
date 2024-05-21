@@ -73,3 +73,16 @@
 .warehouse_data h4 {
     @apply text-xl text-black;
 }
+
+.user-data-item {
+    @apply grid grid-cols-3 gap-3 px-5 py-3 bg-[#F9F9FF] rounded-2xl;
+}
+.userDataWarehouse {
+    @apply flex flex-col items-start;
+}
+.userDataWarehouse .dist p {
+    @apply text-xs capitalize;
+}
+.userDataWarehouse h4 {
+    @apply text-base;
+}
