@@ -63,7 +63,7 @@ function CalculateWizard({ onNextStep }) {
         e.preventDefault();
         if (validateFields()) {
             if (!isNaN(charges) && charges > 0) {
-                onNextStep(estimatedStorage, charges, credits, category, platform, geography, storageType, warehouseSize, sessionsPerDay, daysOfWeek, estimatedStorage, duration); // Pass charges and credits to onNextStep
+                onNextStep(estimatedStorage, charges, credits, category, platform, geography, storageType, warehouseSize, sessionsPerDay, daysOfWeek, duration); // Pass charges and credits to onNextStep
             } else {
                 console.log("Charges must be a valid number greater than 0 to proceed.");
             }

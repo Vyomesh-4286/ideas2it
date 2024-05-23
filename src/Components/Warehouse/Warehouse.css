@@ -1,8 +1,8 @@
-.banner::before {
-    @apply content-[''] absolute top-1/2 -translate-y-1/2 left-0 w-full h-[1325px] bg-rainbow-image bg-cover bg-top;
+.main::before {
+    @apply content-[''] absolute top-1/2 -translate-y-1/2 left-0 w-full h-full bg-rainbow-image bg-cover bg-top;
 }
 
-.banner::after {
+.main::after {
     @apply content-[''] absolute top-0 right-0 w-[410px] h-[442px] bg-flower-image bg-cover;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .user-data-item {
-    @apply grid grid-cols-3 gap-3 px-5 py-3 bg-[#F9F9FF] rounded-2xl;
+    @apply grid grid-cols-3 gap-3 px-5 py-3 bg-[#F9F9FF] rounded-2xl -ml-[70px] w-[calc(100%_+_140px)];
 }
 .userDataWarehouse {
     @apply flex flex-col items-start;
@@ -85,4 +85,10 @@
 }
 .userDataWarehouse h4 {
     @apply text-base;
+}
+.user-data-item .step_1 {
+    @apply col-span-3
+}
+.btn-add {
+    @apply -ml-[70px] w-[calc(100%_+_140px)];
 }
