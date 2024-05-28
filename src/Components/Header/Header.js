@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ username }) => {
     return (
         <React.Fragment>
-            <header className='absolute top-0 left-0 w-full lg:py-[40px] py-[50px] lg:px-[80px] px-[20px] z-[9]'>
+            <header className='absolute top-0 left-0 w-full lg:py-[40px] py-[50px] lg:px-[80px] px-[20px] z-50'>
                 <div className='grid grid-cols-2'>
                     <div className='main_logo'>
                         <img src='./img/Ideas2IT.png' alt='Ideas2IT' width={80} height={80} />
