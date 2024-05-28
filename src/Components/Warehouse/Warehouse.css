@@ -70,8 +70,8 @@
 .warehouse_form_step .step_2 .form-control input {
     @apply text-base text-[#5C409C] px-[12px] py-[6px] border bottom-1 border-solid border-[#97979780] border-opacity-50 rounded w-full;
 }
-.warehouse_data h4 {
-    @apply text-xl text-black;
+.warehouse_data h3 {
+    @apply text-2xl text-black mb-5;
 }
 
 .user-data-item {
@@ -91,4 +91,10 @@
 }
 .btn-add {
     @apply -ml-[70px] w-[calc(100%_+_140px)];
+}
+.all_new_warehouse {
+    @apply flex-col;
+}
+.all_new_warehouse h4.warehouse_text {
+    @apply text-xl;
 }
