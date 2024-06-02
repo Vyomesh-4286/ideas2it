@@ -5,7 +5,7 @@ const UserDetail = () => {
 
     return (
         <React.Fragment>
-            <form action='' className='form-wapper max-w-[300px] m-auto'>
+            <form action='' className='form-wapper lg:max-w-[300px] m-auto'>
                 <div className='form-control'>
                     <input type='text' name='' id='name' />
                     <label htmlFor='name'>Name</label>

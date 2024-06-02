@@ -3,47 +3,47 @@
 }
 
 .main::after {
-    @apply content-[''] absolute top-0 right-0 w-[410px] h-[442px] bg-flower-image bg-cover;
+    @apply content-[''] absolute top-0 lg:right-0 right-[-50px] lg:w-[410px] w-[216px] lg:h-[442px] h-[272px] bg-flower-image bg-cover;
 }
 
 .banner_content h2 {
-    @apply text-[60px] leading-[74px] text-left mb-[24px];
+    @apply lg:text-[60px] text-2xl lg:leading-[74px] text-left mb-[24px];
 }
 
 .banner_content h4 {
-    @apply text-base text-left mb-[16px];
+    @apply lg:text-base text-xs text-left mb-[16px];
 }
 
 .banner_content .dist p {
-    @apply text-xs mt-[30px] text-left pb-[40px];
+    @apply lg:text-xs text-[10px] mt-[30px] text-left lg:pb-[40px] pb-5;
 }
 
 .warehouse_form_step .step_1 h3,
 .warehouse_form_step .step_2 h3 {
-    @apply text-2xl mb-[20px] text-left;
+    @apply lg:text-2xl text-base mb-[20px] text-left;
 }
 
 .warehouse_form_step .step_1 h4,
 .warehouse_form_step .step_2 h4 {
-    @apply text-xl mb-[20px] text-left;
+    @apply lg:text-xl text-sm mb-[20px] text-left;
 }
 
 .warehouse_form_step .step_2 h3 {
-    @apply text-center;
+    @apply lg:text-center;
 }
 
 .warehouse_form_step .step_2 h4 {
-    @apply text-center;
+    @apply lg:text-center lg:text-xl text-xs;
 }
 
 .banner_content .cost-grid .estiCost h3,
 .banner_content .cost-grid .totalCrediCost h3 {
-    @apply text-2xl;
+    @apply lg:text-2xl text-sm;
 }
 
 .banner_content .cost-grid .estiCost h1,
 .banner_content .cost-grid .totalCrediCost h1 {
-    @apply text-[80px];
+    @apply lg:text-[80px] text-[40px];
 }
 
 .banner_content .cost-grid .estiCost h1 span,
@@ -71,11 +71,11 @@
     @apply text-base text-[#5C409C] px-[12px] py-[6px] border bottom-1 border-solid border-[#97979780] border-opacity-50 rounded w-full;
 }
 .warehouse_data h3 {
-    @apply text-2xl text-black mb-5;
+    @apply lg:text-2xl text-lg text-black mb-5;
 }
 
 .user-data-item {
-    @apply grid grid-cols-3 gap-3 px-5 py-3 bg-[#F9F9FF] rounded-2xl -ml-[70px] w-[calc(100%_+_140px)];
+    @apply grid lg:grid-cols-3 grid-cols-2 gap-3 px-5 py-3 bg-[#F9F9FF] rounded-2xl lg:-ml-[70px] -ml-[20px] lg:w-[calc(100%_+_140px)] w-[calc(100%_+_40px)];
 }
 .userDataWarehouse {
     @apply flex flex-col items-start;
@@ -96,5 +96,5 @@
     @apply flex-col;
 }
 .all_new_warehouse h4.warehouse_text {
-    @apply text-xl;
+    @apply lg:text-xl text-base;
 }

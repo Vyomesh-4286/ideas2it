@@ -74,10 +74,10 @@ function CalculateWizard({ onNextStep }) {
 
     return (
         <div className='wizard_1'>
-            <div className='wizard_grids grid grid-cols-2 gap-x-[40px] gap-y-[30px]'>
+            <div className='wizard_grids grid lg:grid-cols-2 grid-cols-1 lg:gap-x-[40px] lg:gap-y-[30px] gap-y-5'>
                 <div className='wizard_grid'>
                     <div className='form-label'>Category of Application</div>
-                    <div className='radio-grid flex items-center gap-[10px]'>
+                    <div className='radio-grid flex items-center lg:gap-[10px] gap-2'>
                         {['Standard', 'Enterprise', 'Business Critical'].map((cat) => (
                             <div className='radio-bx' key={cat}>
                                 <input type='radio' value={cat} id={`coa_radio_${cat}`} name='coa_radio'
@@ -91,7 +91,7 @@ function CalculateWizard({ onNextStep }) {
                 </div>
                 <div className='wizard_grid'>
                     <div className='form-label'>Cloud Platform</div>
-                    <div className='radio-grid flex items-center gap-[10px]'>
+                    <div className='radio-grid flex items-center lg:gap-[10px] gap-2'>
                         {['AWS', 'Microsoft Azure', 'Google Cloud'].map((plat) => (
                             <div className='radio-bx' key={plat}>
                                 <input type='radio' value={plat} id={`cp_radio_${plat}`} name='cp_radio'
@@ -116,7 +116,7 @@ function CalculateWizard({ onNextStep }) {
                 </div>
                 <div className='wizard_grid'>
                     <div className='form-label'>Type of Storage</div>
-                    <div className='radio-grid flex items-center gap-[10px]'>
+                    <div className='radio-grid flex items-center lg:gap-[10px] gap-2'>
                         {['On_demand', 'Pre_purchase'].map((type) => (
                             <div className='radio-bx' key={type}>
                                 <input type='radio' value={type} id={`tos_radio_${type}`} name='tos_radio'
@@ -128,9 +128,9 @@ function CalculateWizard({ onNextStep }) {
                     </div>
                     {errors.storageType && <div className="error">{errors.storageType}</div>}
                 </div>
-                <div className='wizard_grid col-span-2'>
+                <div className='wizard_grid lg:col-span-2'>
                     <div className='form-label'>Size of Warehouse</div>
-                    <div className='radio-grid flex items-center gap-[10px]'>
+                    <div className='radio-grid flex items-center lg:gap-[10px] gap-2 flex-wrap'>
                         {sizeCredits.map((item) => (
                             <div className='radio-bx' key={item.Size}>
                                 <input type='radio' value={item.Size} id={`sow_radio_${item.Size}`} name='sow_radio'
@@ -142,8 +142,8 @@ function CalculateWizard({ onNextStep }) {
                     </div>
                     {errors.warehouseSize && <div className="error">{errors.warehouseSize}</div>}
                 </div>
-                <div className='wizard_grid col-span-2'>
-                    <div className='wizard_grid_boxs flex justify-between items-center gap-5'>
+                <div className='wizard_grid lg:col-span-2'>
+                    <div className='wizard_grid_boxs lg:flex justify-between items-center lg:gap-5 gap-4 grid grid-cols-2'>
                         <div className='wizard_grid_box'>
                             <div className='form-label'>No. of Sessions per Day</div>
                             <div className='wizard_grid_box_counter'>

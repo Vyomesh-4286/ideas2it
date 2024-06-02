@@ -113,10 +113,10 @@ const Warehouse = () => {
     return (
         <React.Fragment>
             <Header username={username} />
-            <main className='main relative w-full h-full bg-[#05279E]'>
+            <main className='main relative w-full h-full bg-[#05279E] lg:overflow-auto overflow-x-hidden'>
                 <section className='banner w-full relative'>
                     {step < 2 && (
-                        <div className='banner_content max-w-[800px] m-auto text-white pt-[160px] relative z-10'>
+                        <div className='banner_content lg:px-0 px-[18px] max-w-[800px] m-auto text-white lg:pt-[160px] pt-[170px] relative z-10'>
                             <h2>Wondering how much a Snowflake Data Cloud could cost?</h2>
                             <h4>
                                 Migrating your data from an on-prem to a Cloud Datawarehouse (or from one CDW to another) could be a daunting task. Even more when you can't estimate how much your new CDW could cost you. You are not alone. Most of our customers have shared this experience with us.
@@ -130,8 +130,8 @@ const Warehouse = () => {
                         </div>
                     )}
                     {step >= 2 && (
-                        <div className='banner_content m-auto text-white pt-[160px] relative z-10'>
-                            <div className='cost-grid flex justify-center items-center gap-20 mb-[50px]'>
+                        <div className='banner_content lg:px-0 px-[18px] m-auto text-white lg:pt-[160px] pt-[170px] relative z-10'>
+                            <div className='cost-grid flex flex-wrap justify-center items-center lg:gap-20 gap-10 lg:mb-[50px]'>
                                 <div className='estiCost'>
                                     <h3>Estimated Cost</h3>
                                     <h1 className='costTotal'><span>$</span>{charges.toFixed(4)}</h1>
@@ -153,8 +153,8 @@ const Warehouse = () => {
                         </div>
                     )}
                 </section>
-                <section className='warehouse_form bottom-0 left-0 w-full h-auto bg-white relative z-10'>
-                    <div className='warehouse_form_step max-w-[800px] m-auto py-[40px] text-black'>
+                <section className='warehouse_form bottom-0 left-0 w-full h-auto bg-white relative z-10 lg:text-center text-left'>
+                    <div className='warehouse_form_step lg:px-0 px-[18px] max-w-[800px] m-auto py-[40px] text-black'>
                         <form action=''>
                             {step === 0 && (
                                 <>
@@ -267,8 +267,8 @@ const Warehouse = () => {
                                                                             </div>
                                                                             <h4>{user.duration}</h4>
                                                                         </div>
-                                                                        <button className='absolute right-0 top-0 mr-16' onClick={() => handleEditUser(index)}>Edit</button>
-                                                                        <button className='absolute right-0 top-0' onClick={() => handleDeleteUser(index)}>Delete</button>
+                                                                        <button className='absolute right-0 top-1 mr-16' onClick={() => handleEditUser(index)}>Edit</button>
+                                                                        <button className='absolute right-0 top-1' onClick={() => handleDeleteUser(index)}>Delete</button>
                                                                     </>
                                                                 )}
                                                             </div>

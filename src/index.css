@@ -35,7 +35,7 @@ select {
 }
 
 .btn-white {
-    @apply px-5 py-[10px] rounded-[4px] text-[#07299E] border bottom-1 border-solid hover:text-white text-base relative transition-all duration-500 ease-in-out font-[500] z-10;
+    @apply lg:px-5 px-3 py-[10px] rounded-[4px] text-[#07299E] border border-solid hover:text-white lg:text-base text-xs relative transition-all duration-500 ease-in-out font-[600] z-10;
 }
 
 .btn-white::before {
@@ -47,7 +47,7 @@ select {
 }
 
 .btn-blue {
-    @apply mt-[45px] flex items-center gap-[10px] px-5 py-[10px] rounded-[4px] text-[#5C409C] stroke-[#5C409C] border-[#5C409C] border bottom-1 border-solid hover:text-white hover:stroke-white text-base relative transition-all duration-500 ease-in-out font-[500] z-10;
+    @apply lg:mt-[45px] mt-8 flex items-center gap-[10px] lg:px-5 px-3 py-[10px] rounded-[4px] text-[#5C409C] stroke-[#5C409C] border-[#5C409C] border bottom-1 border-solid hover:text-white hover:stroke-white lg:text-base text-xs relative transition-all duration-500 ease-in-out font-[600] z-10;
 }
 
 .btn-blue::before {
