@@ -31,7 +31,7 @@
     @apply focus:outline-none focus-visible:outline-none;
 }
 .wizard_grid_box_counter label {
-    @apply text-base text-right text-[#5C409C]
+    @apply lg:text-base text-sm text-right text-[#5C409C]
 }
 .warehouse_form_step .step_1 .wizard_1 .wizard_grid .select-btn select {
     @apply bg-[#5C409C0D] text-[#5C409C] lg:text-base text-sm w-full rounded-[4px] px-[12px] py-1;
