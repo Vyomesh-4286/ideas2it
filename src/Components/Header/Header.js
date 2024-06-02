@@ -8,7 +8,7 @@ const Header = ({ username }) => {
                     <div className='main_logo'>
                         <img src='./img/Ideas2IT.png' alt='Ideas2IT' className='lg:w-[80px] w-[48px] lg:h-[80px] h-[48px]' />
                     </div>
-                    <div className='main_nav flex items-center lg:gap-[40px] gap-5'>
+                    <div className='main_nav flex justify-end items-center lg:gap-[40px] gap-5'>
                         {username && <p className='lg:ml-4 text-white'>Hi, {username}</p>}
                         <button className='btn-white'>Contact Us</button>
                     </div>
